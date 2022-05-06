@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Aliens EVO";
 const description = "New generation of Aliens ready to invade the Metaverse";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmVeUJWRbFxVceQcZPd6LQajBLq1ojKDS4tcWDsaZ2KAwN";
 
 const solanaMetadata = {
   symbol: "EVO",
