@@ -7,15 +7,15 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Aliens EVO";
 const description = "New generation of Aliens ready to invade the Metaverse";
-const baseUri = "";
+const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "EVO",
   seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://aliens-evo.xyz",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x89fB60e754E800bD6E74Efc0919b627bB169c643",
       share: 100,
     },
   ],
@@ -77,8 +77,9 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
-
+const extraMetadata = {
+  external_url: "https://aliens-evo.xyz", // Replace with your website or remove this line if you do not have one.
+};
 const rarityDelimiter = "#";
 
 const uniqueDnaTorrance = 10000;
